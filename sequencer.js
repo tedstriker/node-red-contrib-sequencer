@@ -456,8 +456,8 @@ module.exports = function(RED) {
                 if (seqObject.name) {
                     _seqName = seqObject.name;
                 }
-                if (seqObject.data) {
-                    _queue = seqObject.data;
+                if (seqObject.seq) {
+                    _queue = seqObject.seq;
                 }
 
             } catch (e) {
@@ -514,7 +514,7 @@ module.exports = function(RED) {
         function objectify() {
             return {
                 name: _seqName,
-                data: _queue
+                seq: _queue
             };
         }
     }
