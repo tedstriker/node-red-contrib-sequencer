@@ -1,13 +1,27 @@
 {
-    "name"         : "node-red-contrib-sequencer",
-    "version"      : "0.0.1",
-    "description"  : "A record and replay node for node red message sequences.",
-    "dependencies": {
-    },
-    "keywords": [ "node-red", "sequencer" ],
-    "node-red"     : {
-        "nodes": {
-            "sequencer": "sequencer.js"
-        }
+  "name": "node-red-contrib-sequencer",
+  "version": "1.0.0",
+  "description": "A record and replay node for node red message sequences.",
+  "dependencies": {},
+  "keywords": [
+    "node-red",
+    "sequencer",
+    "automation"
+  ],
+  "node-red": {
+    "nodes": {
+      "sequencer": "sequencer.js"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tedstriker/node-red-contrib-sequencer"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/tedstriker/node-red-contrib-sequencer/issues"
+  },
+  "author": {
+    "name": "Ted Striker"
+  }
 }
